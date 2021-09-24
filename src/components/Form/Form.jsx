@@ -19,7 +19,7 @@ const Form = ({formSubmit}) => {
         <Container>
             <form onSubmit={getLocation}>
                 <label for="name" id="name">Enter Location</label>
-                <input type="text" name="name" id="name" placeholder="Example: London"
+                <input type="text" name="name" id="name" placeholder="Example: Miami"
                  value={location}
                  onChange={(e) => setLocation(e.target.value)}
                 />

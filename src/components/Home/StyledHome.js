@@ -21,9 +21,8 @@ export const Header = styled.header `
 
 export const Main = styled.div`
     position: relative;
-    width:  80vw;
-    height: 60vh;
-    min-height: 400px;
+    min-height: 405px;
+    width: 70vw;
     max-width: 1000px;
     margin: 3rem auto;
     border-radius: 32px;
@@ -38,7 +37,7 @@ export const Main = styled.div`
         display: flex;
         flex-direction: column;
         height: 100%;
-        min-height: 30vh;
+        min-height: 40vh;
     }
 `;
 

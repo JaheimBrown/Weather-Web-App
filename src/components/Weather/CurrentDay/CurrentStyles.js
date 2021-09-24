@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 405px;
     overflow: hidden;
     border-radius: 32px;
     padding: 1rem;
@@ -15,9 +15,9 @@ export const Top = styled.div`
 
   h1 {
       font-size: 36px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       letter-spacing: 4%;
-  }  
+   }  
 
   p{
       font-size: 18px;

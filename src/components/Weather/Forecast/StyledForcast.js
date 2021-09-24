@@ -7,7 +7,7 @@ export const Container = styled.div`
     align-items: center;
     grid-gap: 20px;
 
-    @media screen and (max-width: 554px) {
+    @media screen and (max-width: 600px) {
         height: auto;
         flex-wrap: wrap;
         justify-content: center;
